@@ -1,0 +1,96 @@
+*  {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url("./images/background.png");
+    background-position:fixed ;
+    background-size: cover;
+    padding: 10px 8%;
+    
+}
+
+nav{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+
+nav ul{
+    
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding: 6px;
+
+}
+
+nav ul li{
+    display: inline-block;
+  margin: 20px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #fff;
+    background: #f5168d;
+
+}
+.btn img{
+    width: 20px;
+    margin-right: 10px;
+
+}
+.content{
+    margin: 14%;
+    color: #fff;
+    max-width: 620px;
+
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 25px;
+   
+}
+
+.content form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.content input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
